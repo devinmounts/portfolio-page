@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patrick Mounts | Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.colorbox-min.js"></script>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <!--Custom CSS -->
+    <link href="css/colorbox.css" rel="stylesheet" />
+    <link href="stylesheet.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Scada' rel='stylesheet' type='text/css'>
+    <!-- JAVASCRIPT for Colorbox Plugins -->
+    <script>
+      $(document).ready(function(){
+        //Examples of how to assign the Colorbox event to elements
+        $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+
+        //Example of preserving a JavaScript event for inline calls.
+        $("#click").click(function(){
+          $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+          return false;
+        });
+      });
+    </script>
+  </head>
+<body>
+   <div class="container-fluid">
+    <div class="row-fluid">
+        <div class="page-header">
+          <h1>Patrick Mounts <small>Season, Reason, Lifetime</small></h1>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="#">Welcome</a>
+            <ul class="nav">
+              <li><a href="/index.html">Home</a></li>
+              <li class="active"><a href="/projects.html">Projects</a></li>
+              <li><a href="/social.html">Social</a></li>
+              <!-- <li><a href="/blog.html">Blog</a></li> -->
+            </ul>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <div class="span12 project-desc">
+          <a href="img/ssCurrentCond.jpg" alt="current conditions screenshot" class="group3 cboxElement" title="FreeFlow, prsenting information for all U.S. streamflow data available through the USGS API."><img src="img/ssCurrentCond-crop.jpg" alt="current conditions screenshot" class="image"></a>
+          <p><a href="http://currentconditions.herokuapp.com">Current Conditions</a> is a river gauge site that montiors and presents all water flow data for all U.S. Rivers monitored by the USGS.  We accessed the data through their API and parsed and presented the data in scoped and searchable fields.  We also utilized Google Fusion Tables in order to generate an interactive prsentation of data & the Foundation framework to ensure it scales for all devices.<a href="http://currentconditions.herokuapp.com"><strong> Check It Out Live!</strong></a></p>
+        </div>
+      </div>
+        <hr>
+      <div class="row-fluid">
+        <div class="span12 project-desc">
+          <a href="img/ss28hug.png" alt="28dayhug" class="group3 cboxElement" title="Building experience in others code by ransitioning established e-commerce site from WordPress to Rails."><img src="img/ss28hug-crop.png" alt="28 day hug" class="image"></a>
+          <p>My first team project with Rails was a refactoring of a previously established e-commerce site, migrating from a WordPress hosted site into a full Rails application.  The project included total reformatting of a previous established code base and live application of payment processes and subscription services, among other key components in order to allow for a User to log in an manage their account.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row-fluid">
+        <div class="span12 project-desc">
+          <a href="img/ssPortfolio.png" alt="patrickmnts.com" class="group3 cboxElement" title="Raw HTML & CSS in Bootstrap Framework."><img src="img/ssPortfolio-crop.png" alt="patrickmnts.com" class="image"></a>
+          <p>Building the portfolio site provided an opportunity to experiment with HTML, CSS, and Javascript.  As well as a chance to gain real world experience with grid systems such as Twitter Bootstrap.</p>
+        </div>
+      </div>
+        <hr>
+      <div class="row-fluid">
+       <div class="span12 project-desc">
+          <a href="img/ssSampleapp.png" alt="hartl sample app" class="group3 cboxElement" title="Full Rails app with log in/log out & content upload."><img src="img/ssSampleapp-crop.png" alt="Ruby on rails sample app" class="image"></a>
+          <p>Working throught Michael Hartl's Ruby on Rails Tutorial was a chance to build a full scale Rails application that is a mimic site to Twitter's microblogging platform.  Features include User login, subscriptions, the ability to follow/unfollow users and to provide content.  All data collected is migrated to a database using SQLite and ActiveRecord.  Live site can be seen <a href="http://pmounts-sample-app.herokuapp.com">HERE</a>.</p>
+        </div>
+      </div>
+        <hr>
+      <div class="row-fluid">
+         <div class="span12 project-desc">
+          <a href="img/ssGrid.png" alt="Javascript Grid" class="group3 cboxElement" title='Javascript & JQuery game with relationships and actions in the DOM.'><img src="img/ssGrid-crop.png" alt="Javascript Grid Game" class="image"></a>
+          <p>The Grid game was a chance to experiment with manipulating objects in the DOM and building relationships and binding handlers to other objects within the page.</p>
+        </div>
+      </div>
+        <hr>
+      <div class="row-fluid">
+        <div class="span12 project-desc">
+          <a href="img/ssBacon.png" alt="degrees of bacon api" class="group3 cboxElement" title="How far is your favorite actor away from Kevin Bacon??"><img src="img/ssBacon-crop.png" alt="degrees of bacon api" class="image"></a>
+          <p>This is a snippet from a program that makes an API call to the ORACLE of Bacon.  The command line program  takes the name of an actor and delivers the degrees of connection they are from Kevin Bacon.  Including years and films for the featured connections.  The project required Parsing a JSON API and troubleshooting user imput error like typos or multiple listings.</p>
+        </div>
+      </div>
+        <hr>
+      <div class="row-fluid">
+        <div class="span12 project-desc">
+          <a href="img/ssRobot.png" alt="Robot name" class="group3 cboxElement" title='Building understanding of instance variables and methods'><img src="img/ssRobot-crop.png" alt="robot name" class="image"></a>
+          <p>One of my first Ruby programs consisted of creating a hypothetical Robot factory and instances variables of Robots.  Each robot recieved a name and a "created-on" date.  The opperator could reset Robot names and the reboot time stamp but not the creation date.  Program contains full Rspec test suite.</p>
+        </div>
+      </div>
+      <hr>
+      <footer class="modal-footer">
+        Patrick Mounts 2013
+      </footer>
+      <!-- This contains the hidden content for inline calls -->
+    <div style='display:none'>
+      <div id='inline_content' style='padding:10px; background:#0f0f0f;'>
+      <p><strong>This content comes from a hidden element on this page.</strong></p>
+      <p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
+      <p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+
+      <p><strong>If you try to open a new Colorbox while it is already open, it will update itself with the new content.</strong></p>
+      <p>Updating Content Example:<br />
+      <a class="ajax" href="../content/ajax.html">Click here to load new content</a></p>
+      </div>
+    </div>
+    </div>
+<!-- GOOGLE ANYLITICS -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-42027213-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>

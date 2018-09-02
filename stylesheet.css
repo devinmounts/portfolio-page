@@ -1,0 +1,132 @@
+/*Custom CSS */
+body {
+  font-family:  'Scada', ariel, sans-sarif;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width:  980px;
+}
+
+#contact-list {
+  line-height: 200%;
+}
+
+.resumebtn {
+  margin-left: 42%;
+}
+
+#contact-list #float {
+  font-size: 200%;
+  margin-top: px;
+}
+
+#pdf-display,
+#pdf-display2  {
+  height: 1000px;
+}
+
+#main-img {
+  height: 400px;
+  width:  auto;
+  margin-left: 10px auto;
+  border-radius: 30px;
+}
+
+#webskills {
+  float: left;
+}
+
+#progskills {
+  float: left;
+}
+
+.span6 h4 {
+  text-align: center;
+}
+
+#abouttxt {
+  margin-top: 25%;
+  line-height: 200%;
+}
+
+#current_end {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+}
+
+#contact {
+  line-height: 150%;
+  padding-top: 8%;
+  margin: 0 auto;
+}
+
+#PCSinfo {
+  float: right;
+}
+
+.blog {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.blog p {
+  text-indent: 2em;
+}
+
+.image {
+  max-height: 100%;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+
+
+/* BLOG IMAGES!!! */
+#righttool {
+  float: right;
+  height: 400px;
+  margin: 10px;
+}
+
+#middlefork {
+  margin: 0 auto;
+}
+
+#wrench {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+  border: 4px solid black;
+
+}
+
+#cycle {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: block;
+  border: 4px solid black;
+  height: 400px;
+}
+
+/* COLORBOX POPUP WINDOWS */
+div#cboxContent {
+  height: 100%;
+  width: 100%;
+  border: 4px solid;
+  border-radius: 8px;
+}
+
+/* PORTFOLIO PAGE */
+.project-desc p {
+  font-size: 16px;
+}
+
+
+
+
