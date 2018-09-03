@@ -3,6 +3,10 @@ body {
   font-family:  'Scada', ariel, sans-sarif;
 }
 
+#img-div{
+  float: right;
+}
+
 .container-fluid {
   margin: 0 auto;
   max-width:  980px;
@@ -126,7 +130,3 @@ div#cboxContent {
 .project-desc p {
   font-size: 16px;
 }
-
-
-
-
